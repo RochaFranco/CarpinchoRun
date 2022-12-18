@@ -1,0 +1,514 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1671319580379388, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319580381348, "dur": 46159, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319580427833, "dur": 2061608, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319582489479, "dur": 10805, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319588576744, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319588577049, "dur": 3950, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319588581002, "dur": 26463, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319588607501, "dur": 1206583, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319589814087, "dur": 2044276, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319591858365, "dur": 351, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319591859096, "dur": 54, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1671319589637237, "dur": 162150, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589638324, "dur": 53240, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589780336, "dur": 5287, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589785639, "dur": 13733, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589786499, "dur": 11873, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589804891, "dur": 1505, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671319589803939, "dur": 2486, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319591859231, "dur": 183, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671319589853323, "dur":1258, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319589854588, "dur":56, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671319589854662, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671319589854692, "dur":172, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671319589854888, "dur":701, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319589855589, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830475, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830578, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830600, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830602, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830608, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830609, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830614, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830615, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830622, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830631, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591830690, "dur":1368, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671319589855297, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589855635, "dur":4417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589860052, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589860096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589861982, "dur":10634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589872647, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589872684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589872689, "dur":7751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589880470, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671319589880496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589880501, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671319589881746, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589881777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589881782, "dur":10757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589892570, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671319589892601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589892804, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1671319589894138, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589894176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589894211, "dur":48691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589942935, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671319589942992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589942997, "dur":7739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1671319589950768, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589950799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589950803, "dur":12151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1671319589962984, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1671319589963012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589963017, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1671319589964143, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589964177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589964312, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589965288, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589965321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589965354, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589969768, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589969803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589969807, "dur":15187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319589985025, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671319589985054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589985057, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671319589986309, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671319589986339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319589986343, "dur":30046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1671319590016413, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671319590016449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590017335, "dur":33934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1671319590051301, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590051328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590051741, "dur":47349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590099116, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590099140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590099171, "dur":24988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590124186, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590124213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590124218, "dur":48364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590172608, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590172638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590172643, "dur":28888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590201850, "dur":1730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590203585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590203592, "dur":82219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590285837, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590285873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590285878, "dur":29959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590315864, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590315890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590315895, "dur":61798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590377719, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590377747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590377752, "dur":100389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590478165, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590478193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590478197, "dur":43190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590521412, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590521437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590521442, "dur":33533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590554999, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590555023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590555028, "dur":25702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590580755, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590580782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590580787, "dur":27410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590608226, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590608251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590608314, "dur":41978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590650315, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590651650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590651655, "dur":24869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590676553, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590676578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590676583, "dur":20794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590697401, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590697486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590697490, "dur":22154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590719670, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590719694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590719702, "dur":16522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590736268, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590736321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590736357, "dur":77150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590813534, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590813562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590813566, "dur":27492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590841084, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590841109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590841113, "dur":34033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590875170, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590875194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590875198, "dur":34195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590909417, "dur":45646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590955067, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590955169, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590955738, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319590955763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319590955766, "dur":50668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591006459, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591007345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591007350, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591007898, "dur":35271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591043173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591043180, "dur":6451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591049654, "dur":15220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591064878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591064884, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591065566, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591066629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591066635, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591067502, "dur":19556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591087062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591087067, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591087667, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591087690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591087694, "dur":65694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591153413, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591153437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591153441, "dur":132582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591286049, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591286074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591286079, "dur":27832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591313938, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591313962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591313967, "dur":25045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591339036, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591339075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591339079, "dur":161001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591500105, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591500129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591500134, "dur":91353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671319591591528, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591591615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591592279, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591592737, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1671319591592764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591592798, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1671319591593598, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591593620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591593623, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591595777, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591595801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591595805, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591596669, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591596692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591596695, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591598891, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591598913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591598917, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591599787, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591599859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591599862, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591600294, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591601139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591601143, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1671319591601970, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591601993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591601997, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591603361, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591603385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591603389, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591604561, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591604586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591604590, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591605205, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671319591605227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591605231, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606089, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606114, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606669, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591606695, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1671319591607905, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591608017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591608021, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1671319591608977, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609005, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609473, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609545, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1671319591609976, "dur":220500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589855394, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589855680, "dur":4364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589860045, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671319589860093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589862112, "dur":7885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671319589870029, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671319589870060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589870133, "dur":6287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1671319589876453, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671319589876482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589876961, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1671319589878541, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1671319589878581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589878617, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1671319589885173, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671319589885217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319589885223, "dur":256550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1671319590141807, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590141837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590141841, "dur":37449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590179316, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590179352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590179357, "dur":58498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590237883, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590237911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590237933, "dur":29602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590267560, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590267586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590267590, "dur":43636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590311254, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590311280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590311285, "dur":41323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590352634, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590352658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590352677, "dur":23749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590376450, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590376476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590376481, "dur":94869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590471377, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590471401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590471422, "dur":92673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590564126, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590564151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590564156, "dur":15497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590579677, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590579702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590579707, "dur":17250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590596983, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590597007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590597012, "dur":50646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590647683, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590647706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590647711, "dur":54281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590702016, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590702040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590702045, "dur":19702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590721769, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590721792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590721797, "dur":91580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590813403, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590813430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590813435, "dur":27596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590841059, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590841087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590841105, "dur":58091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590899240, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590899268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319590899272, "dur":39587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319590938884, "dur":70336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591009223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591009229, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591010344, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591011150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591011155, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591011686, "dur":29080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591040770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591040776, "dur":5289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591046092, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591046837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591046842, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591047930, "dur":36501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591084435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591084440, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591085655, "dur":15083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591100743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591100749, "dur":552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591101323, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591101348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591101352, "dur":46443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591147820, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591147844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591147848, "dur":73972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591221843, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591221881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591221886, "dur":54213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591276125, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591276150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591276154, "dur":70845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591347026, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591347080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591347085, "dur":135051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591482161, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591482187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591482192, "dur":85331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591567549, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591567573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671319591567578, "dur":184878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671319591752480, "dur":77983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589855508, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589855689, "dur":4272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589859962, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1671319589860043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589861904, "dur":81192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1671319589943123, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671319589943152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589943156, "dur":6585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1671319589949775, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1671319589949815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319589949821, "dur":405751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1671319590355606, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590355632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590355636, "dur":30092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590385753, "dur":133319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590519076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590519082, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590519864, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590519888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590519892, "dur":40173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590560101, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590560128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590560230, "dur":32292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590592546, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590592569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590592574, "dur":56568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590649166, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590649195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590649199, "dur":27377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590676600, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590676625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590676628, "dur":28794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590705447, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590705471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590705475, "dur":22471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590727970, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590727993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590727997, "dur":22953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590750974, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590750998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590751003, "dur":62486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590813528, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590813628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590813632, "dur":90559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590904217, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590904244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319590904249, "dur":35107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319590939380, "dur":60862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591000247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591000253, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591001255, "dur":199811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591201070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591201076, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591202382, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591202406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591202413, "dur":112202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591314638, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591314668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591314672, "dur":152128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591466827, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591466851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591466856, "dur":98837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591565718, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591565747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671319591565751, "dur":264656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671319591830432, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1671319591830433, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589855631, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589855631, "dur":4301, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589859940, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671319589859941, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589860002, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671319589860007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589860412, "dur":12722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1671319589873136, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671319589873170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319589873175, "dur":231005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1671319590104211, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590104243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590104247, "dur":37112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590141385, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590141409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590141413, "dur":62768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590204206, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590204235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590204239, "dur":91014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590295278, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590295306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590295310, "dur":24500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590319834, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590319857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590319862, "dur":90431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590410318, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590410344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590410349, "dur":22798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590433175, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590433199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590433204, "dur":36633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590469862, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590469889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590469894, "dur":41402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590511322, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590511352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590511356, "dur":44654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590556035, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590556059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590556063, "dur":15336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590571423, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590571450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590571454, "dur":53053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590624533, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590624560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590624564, "dur":20303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590644893, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590644920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590644925, "dur":46124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590691077, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590691102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590691107, "dur":122619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590813748, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590813772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590813775, "dur":18592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590832391, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590832425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590832430, "dur":27290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590859745, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590859769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590859774, "dur":39196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590898998, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590899023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319590899028, "dur":98364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319590997417, "dur":71523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591068944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591068949, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591070441, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591071179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591071185, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591071724, "dur":24909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591096637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591096643, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591097352, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591097374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591097378, "dur":214960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591312365, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591312391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591312395, "dur":76487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591388907, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591388944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591388949, "dur":40746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591429718, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591429741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591429745, "dur":115727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591545504, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591545528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591545533, "dur":34873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591580431, "dur":75547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Carpincho/Carpingo run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591655983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671319591655988, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Carpincho/Carpingo run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671319591657033, "dur":173437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671319591833658, "dur":1806, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671319591859473, "dur": 848, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671319591859073, "dur": 1271, "ph": "X", "name": "Write chrome-trace events", "args": {} },
