@@ -7,15 +7,31 @@ public class MovimientoDePiso : MonoBehaviour
     public Renderer materialPiso;
     public float scrollSpeed;
     private float offset;
+    private playerMovement pm;
 
     private void Start()
     {
-
+        pm = FindObjectOfType<playerMovement>();
     }
 
     void Update()
     {
-        offset += (Time.deltaTime * scrollSpeed) / 10f;
-        materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
+
+        if (pm.KmRecorridos < 25)
+        {
+            offset += (Time.deltaTime * scrollSpeed) / 10f;
+            materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
+        }
+        else if (pm.KmRecorridos >= 25 && pm.KmRecorridos < 50)
+        {
+            offset += (Time.deltaTime * scrollSpeed) / 6.7f;
+            materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
+        }
+        else if (pm.KmRecorridos >= 50)
+        {
+            offset += (Time.deltaTime * scrollSpeed) / 5f;
+            materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
+        }
+
     }
 }

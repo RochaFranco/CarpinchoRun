@@ -23,16 +23,15 @@ public class ProBasicoArboles : MonoBehaviour
             Quaternion.identity
             );
 
-
         if (pm.KmRecorridos >= 25 && pm.KmRecorridos < 50)
         {
-            Invoke("Spawn", velocidadDeSpawnDeObjetos - 3.2f);
+            Invoke("Spawn", velocidadDeSpawnDeObjetos - 3.2f);       
         }
         else if (pm.KmRecorridos >= 50)
         {
             Invoke("Spawn", velocidadDeSpawnDeObjetos - 4.9f);
         }
-        else if (pm.KmRecorridos <= 25)
+        else if (pm.KmRecorridos < 25)
         {
             Invoke("Spawn", velocidadDeSpawnDeObjetos);
         }

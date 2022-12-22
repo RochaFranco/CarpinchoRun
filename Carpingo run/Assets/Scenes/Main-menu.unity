@@ -968,6 +968,7 @@ GameObject:
   - component: {fileID: 1788642164}
   - component: {fileID: 1788642163}
   - component: {fileID: 1788642166}
+  - component: {fileID: 1788642167}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1036,6 +1037,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98fdf6e54702da2489d63cfbc78a8c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1788642167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788642162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a135bd421ecb69f439206b3296a2a6c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInt: 0
+  previousInt: 0
+  carrilesParent: {fileID: 0}
+  carrilesPositions: []
+  carrilPositionActual: {fileID: 0}
+  carrilActualIndex: 1
+  playerHorizontalSpeed: 10
+  cartelDePerder: {fileID: 0}
+  itemTexto: {fileID: 0}
+  kmTexto: {fileID: 0}
+  KmRecorridos: 0
+  itemsTotales: 0
+  items: 0
 --- !u!1 &1906672101
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,6 +4,10 @@ using UnityEngine.UI;
 public class playerMovement : MonoBehaviour
 {
 
+    string myIntKey = "myInt";
+    public int currentInt;
+    public int previousInt;
+
     public Transform carrilesParent;
     public Transform[] carrilesPositions;
     public Transform carrilPositionActual;
@@ -13,8 +17,15 @@ public class playerMovement : MonoBehaviour
     public Text itemTexto;
     public Text kmTexto;
     public float KmRecorridos = 0;
-    int items;
+    public int itemsTotales;
+    public int items;
 
+
+
+    private void Awake()
+    {
+        loadData();
+    }
 
     void Start()
     {
@@ -77,6 +88,7 @@ public class playerMovement : MonoBehaviour
 
         if (other.tag == "Rock")
         {
+            saveDate();
             Destroy(gameObject);
             cartelDePerder.SetActive(true);
 
@@ -88,6 +100,23 @@ public class playerMovement : MonoBehaviour
             kmRecorrido();
         }
 
+    }
+
+    public void saveDate()
+    {
+        currentInt = items + previousInt;
+        PlayerPrefs.SetInt(myIntKey, currentInt);
+
+    }
+
+    public void loadData()
+    {
+        bool result = PlayerPrefs.HasKey(myIntKey);
+        if (result)
+        {
+            previousInt = PlayerPrefs.GetInt(myIntKey);
+
+        }
     }
 
 
