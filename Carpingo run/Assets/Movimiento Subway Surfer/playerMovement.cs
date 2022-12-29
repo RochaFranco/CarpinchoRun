@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class playerMovement : MonoBehaviour
 {
 
-    string myIntKey = "myInt";
+    public string myIntKey = "myInt";
     public int currentInt;
     public int previousInt;
 

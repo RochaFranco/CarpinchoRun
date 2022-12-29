@@ -15,8 +15,10 @@ public class UI_Behaivour : MonoBehaviour
         orangeText.text = pm.previousInt.ToString();
     }
 
-    void Update()
+    private void Update()
     {
-        
+        pm.loadData();
+        orangeText.text = pm.previousInt.ToString();
     }
+
 }

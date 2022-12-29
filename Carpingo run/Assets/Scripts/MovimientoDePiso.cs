@@ -22,12 +22,12 @@ public class MovimientoDePiso : MonoBehaviour
             offset += (Time.deltaTime * scrollSpeed) / 10f;
             materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
         }
-        else if (pm.KmRecorridos >= 25 && pm.KmRecorridos < 50)
+        else if (pm.KmRecorridos >= 25 && pm.KmRecorridos < 100)
         {
             offset += (Time.deltaTime * scrollSpeed) / 6.7f;
             materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
         }
-        else if (pm.KmRecorridos >= 50)
+        else if (pm.KmRecorridos >= 100)
         {
             offset += (Time.deltaTime * scrollSpeed) / 5f;
             materialPiso.material.mainTextureOffset = new Vector2(0, -offset);
